@@ -1,0 +1,83 @@
+
+      p {
+        font-family: arial;
+        color: rgb(100, 100, 100);
+      }
+      .atext {
+        font-size: 15px;
+        padding-left: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-radius: 8px;
+        border-color: grey;
+        border-style: solid;
+        border-width: 1px;
+        margin-bottom: 10px;
+      }
+      .btext {
+        font-size: 16px;
+        width: 500px;
+        border: none;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 30px;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+      }
+      .label {
+        margin-bottom: 3px;
+        font-size: 16px;
+      }
+      .ctext {
+        width: 392px;
+        border-style: solid;
+        padding-left: 3px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-radius: 5px;
+        border-width: 2px;
+        border-color: rgb(100, 100, 100);
+        
+      }
+      .disclamer {
+        font-size: 16px;
+        margin-bottom: 50px;
+      }
+      .twitter{
+        .profile-picture{
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 25px;
+           object-position: right;
+           vertical-align: middle;
+
+          
+            
+        }
+        .text-box{
+          width: 300px;
+          border: none;
+          font-size: 18px;
+          vertical-align: middle;
+
+        }
+        .tweet{
+          font-size: 15px;
+          font-family: arial;
+          font-weight: bold;
+          color: white;
+          background-color:  rgb(29, 155, 240);
+          padding-left:16px;
+          padding-right: 16px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          border-radius: 20px;
+          border: none;
+          vertical-align: middle;
+        }
+      }
