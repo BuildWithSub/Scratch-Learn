@@ -1,4 +1,4 @@
-My Learning Journey
+# My Learning Journey
 This repository is a place where I will document and share what I learn as a beginner. It includes notes, code examples, and projects I work on as I explore new topics and skills.
 
 About
