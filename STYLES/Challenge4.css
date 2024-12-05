@@ -1,0 +1,39 @@
+
+      .profile {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        display: inline-block;
+        width: 200px;
+        margin-right: 15px;
+      }
+      .display-picture {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+      }
+      p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-family: Arial;
+      }
+      .name {
+        margin-top: 8px;
+        font-weight: bold;
+        margin-left: 8px;
+      }
+      .mutual-friends {
+        margin-top: 3px;
+        ruby-align: 100, 100, 100;
+        margin-left: 8px;
+      }
+      .add-friend {
+        margin-top: 8px;
+        color: white;
+        background-color: rgb(24, 119, 242);
+        padding: 10px 20px;
+        border-radius: 4px;
+        font-size: 16px;
+        border: none;
+        margin-left: 8px;
+        margin-bottom: 8px;
+      }
+    

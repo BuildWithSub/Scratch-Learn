@@ -1,0 +1,35 @@
+
+        div{
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+            width: 450px;
+            padding: 12px;
+        }
+      .profile-picture {
+        height: 50px;
+        width: 50px;
+
+        border-radius: 25px;
+        vertical-align: middle;
+        margin-right: 10px;
+      }
+      .text-box {
+        font-size: 18px;
+        border: none;
+        width: 300px;
+      }
+      .tweet{
+        padding: 8px 16px;
+        border-radius: 30px;
+        border: none;
+        background-color: rgb(29, 155, 240);
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        
+        
+        &:hover{
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);;
+        }
+        
+      }
+  
