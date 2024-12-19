@@ -1,0 +1,40 @@
+div{
+    font-family: arial;
+    color: white;
+    font-weight: bold;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(120, 82, 178);
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.search-bar{
+  padding-left: 12px;
+  border-radius: 15px;
+  border: none;
+  width: 500px;
+  height: 30px;
+  padding-left: 20px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+
+
+}
+.download-button{
+    padding:8px 15px;
+    color: white;
+    background-color:rgb(120, 82, 178) ;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
