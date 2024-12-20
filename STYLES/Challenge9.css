@@ -1,0 +1,48 @@
+p {
+  margin: 0px;
+  font-family: Arial;
+}
+.profile-preview {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.profile-info {
+  width: 300px;
+  margin-left: 4px;
+  margin-bottom: 20px;
+}
+.follow-button {
+  padding: 8px 10px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: arial;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(0, 139, 214);
+  color: white;
+  cursor: pointer;
+  transition: hover 0.5s;
+}
+.follow-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.name{
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+.handle{
+  color: rgb(150, 150, 150);
+  margin-bottom: 5px;
+
+}
+.category{
+  color: rgb(150, 150, 150);
+  font-size: 14px;
+}
