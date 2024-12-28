@@ -1,0 +1,37 @@
+body {
+  height: 3000px;
+}
+.rectangle {
+  width: 500px;
+  height: 250px;
+  background-color: grey;
+  position: fixed;
+  top: 400px;
+  right: 40px;
+}
+.close-button {
+  position: absolute;
+
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  height: 45px;
+  width: 45px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -18px;
+  left: -18px;
+}
+.time {
+  position: absolute;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  bottom: 8px;
+  right: 8px;
+  right: 10;
+  padding: 4px 4px;
+}
