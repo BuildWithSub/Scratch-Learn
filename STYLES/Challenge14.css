@@ -1,0 +1,43 @@
+body {
+  height: 2000px;
+  background-color: aqua;
+}
+div {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.product-container {
+  background-color: lightblue;
+  display: inline-block;
+  position: relative;
+}
+.product-image {
+  height: 400px;
+
+  object-fit: cover;
+}
+.promotion {
+  background-color: black;
+  color: white;
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  padding: 4px 8px;
+}
+.bottom-overlay {
+  height: 80px;
+
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart-button {
+  padding: 6px 10px;
+  border-width: 1px;
+  border-style: solid;
+}
