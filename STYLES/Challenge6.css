@@ -1,63 +1,54 @@
 p {
-    margin-top: 0px;
-    margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-.profile{
-    width: 200px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+.profile {
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .grid {
-
-    display:inline-grid;
-    grid-template-columns: 200px 200px 200px;
-    column-gap: 20px;
-    
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 20px;
 }
 
 .profile-picture {
-width: 200px;
-height: 270px;
-image-rendering:optimizeQuality;
-
-
-object-fit: cover;
+  width: 200px;
+  height: 270px;
+  object-fit: cover;
 }
 
 .name {
-    font-size: 18px;
-    font-weight: bold;
-    margin-left: 8px;
-    margin-bottom: 5px;
-    margin-top: 12px;
-    
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-bottom: 5px;
+  margin-top: 12px;
 }
 
 .mutual-friends-row {
-    display: grid;
-    grid-template-columns: 35px 1fr;
-    align-items: center;
-    margin-left: 8px;
-    margin-bottom: 10px;
-
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
+  margin-left: 8px;
+  margin-bottom: 10px;
 }
 
 .friend-suggestion-picture {
-    width: 28px;
-    height: 28px;
-    object-fit: cover;
-    border-radius: 50%;
-
-
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .add-friend-button {
-    margin-left: 8px;
-    padding: 10px 20px;
-    border-style: none;
-    border-radius: 4px;
-    background-color: rgb(24, 119, 242);
-    font-size: 16px;
-    color: white;
-    margin-bottom: 8px;
+  margin-left: 8px;
+  padding: 10px 20px;
+  border-style: none;
+  border-radius: 4px;
+  background-color: rgb(24, 119, 242);
+  font-size: 16px;
+  color: white;
+  margin-bottom: 8px;
 }
