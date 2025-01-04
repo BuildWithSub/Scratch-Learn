@@ -1,0 +1,18 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-page {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+.left-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
