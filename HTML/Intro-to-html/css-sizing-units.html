@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS sizing units</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    html{
+      font-size: 20px;
+    }
+    .box{
+      box-sizing: border-box;
+      border: 2px solid black;
+      background-color: lightblue;
+      /* width: 233px; */
+      /* width: 50vw; */
+      width: 50vw;
+      min-height: 30vh;
+      margin: auto; /* apply only on block element*/
+
+    }
+    .container{
+      box-sizing: border-box;
+      border: 2px solid black;
+      background-color: aquamarine;
+      /* width: 233px; */
+      width: 50vw;
+      /* height: 50vh; */
+      min-height: 40vh;
+      font-size: 10px;
+     
+      margin:   auto; /* apply only on block element*/
+
+    }
+    .container p{
+      font-size: 1.2rem;
+      height: 50%;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">This is a box</div>
+  <div class="container">
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad molestias sunt est tenetur nesciunt maxime voluptatibus minus. Pariatur aspernatur commodi hic itaque sint dolore omnis. Harum non repellat velit quidem, laborum odio omnis hic enim. Magni earum cupiditate incidunt vero maiores neque similique quaerat excepturi, libero quia quod impedit? Eveniet consequuntur dicta velit accusamus modi voluptates veritatis est, laudantium vero.
+    </p>
+  </div>
+</body>
+</html>
