@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Selectors</title>
+  <style>
+    :root{
+      --color:pink;
+      --seccolor:lightblue;
+      --txtcolor:red;
+      --sectxtcolor:lightyellow;
+     --defpad:5px;
+     --defop:0.2;
+     --defmargin:0px;
+    }
+    .container{
+      background-color: var(--color);
+    }
+  .container div{
+    background-color: var(--seccolor);
+    color: var(--txtcolor);
+    padding: var(--defpad);
+    p{
+      margin: var(--defmargin);
+      color: var(--sectxtcolor);
+    }
+  }
+ 
+  </style>
+</head>
+<body>
+  <div class="container">
+    This is a container
+    <div>
+      Hi
+    </div>
+    <div>
+      <p>
+
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic porro animi at reprehenderit explicabo soluta obcaecati, error pariatur cum nulla?
+      </p>
+      <div>
+        HEllo There
+      </div>
+    </div>
+  </div>
+</body>
+</html>
