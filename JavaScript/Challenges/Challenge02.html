@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faulty Calculator</title>
+</head>
+<body>
+  <script>
+
+// Create a faulty calculator using js.
+// - It takes teo numbers as input from the user..
+// - It performs wrong operation as follows :
+
+// + ---> -
+// * ---> +
+// - ---> /
+// / ---> **
+
+// It performs wrong operations 10% of the times
+
+
+
+    let random  = Math.random();
+    console.log(random)
+
+let a = prompt("Enter the first number :")
+let b = prompt("Enter the operation :")
+let c = prompt("Enter the second number :")
+
+let obj = {
+  "+" : "-",
+  "*" : "+",
+  "-" : "/",
+  "/" : "**",
+
+}
+
+if(random>0.1){
+  alert(`The result is : ${eval(`${a} ${b} ${c}`)}`)
+
+}else{
+  b = obj[b];
+  alert(`The result is : ${eval(`${a} ${b} ${c}`)}`)
+}
+
+</script>
+</body>
+</html>
