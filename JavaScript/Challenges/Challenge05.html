@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge 05</title>
+  </head>
+  <body>
+    <script>
+      //Creates a function using the "function" keyword that takes a string as an argument & returns the number of vowels in it.
+
+      function countVowels(str) {
+        let count = 0;
+        for (const char of str) {
+          if (
+            char === "a" ||
+            char === "e" ||
+            char === "i" ||
+            char === "o" ||
+            char === "u"
+          ) {
+            count++;
+          }
+        }
+        console.log(`Total number of vowels are : ${count}`);
+      }
+
+//Arrow function
+      const countVow = (str) =>{
+        let count = 0;
+        for (const char of str) {
+          if (
+            char === "a" ||
+            char === "e" ||
+            char === "i" ||
+            char === "o" ||
+            char === "u"
+          ) {
+            count++;
+          }
+        }
+        console.log(`Total number of vowels are : ${count}`);
+      }
+    </script>
+  </body>
+</html>
